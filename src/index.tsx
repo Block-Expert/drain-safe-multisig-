@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { ThemeProvider } from 'styled-components'
@@ -5,7 +6,7 @@ import { theme, Loader, Title } from '@gnosis.pm/safe-react-components'
 import SafeProvider from '@gnosis.pm/safe-apps-react-sdk'
 
 import GlobalStyle from './GlobalStyle'
-import App from './App'
+import SafeApp from './App'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -19,7 +20,7 @@ ReactDOM.render(
           </>
         }
       >
-        <App />
+        <SafeApp />
       </SafeProvider>
     </ThemeProvider>
   </React.StrictMode>,
