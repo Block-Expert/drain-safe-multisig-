@@ -47,3 +47,13 @@ Safe React Components are also integrated and ready to use. [See all components]
 - [`ethers`](https://github.com/ethers-io/ethers.js) (Library for interacting with Ethereum)
 - [`web3`](https://github.com/ethereum/web3.js/) (Library for interacting with Ethereum)
 - [`@studydefi/money-legos`](https://github.com/studydefi/money-legos) (Library for DeFi interactions)
+
+## Usage
+
+- [Create a Safe](https://help.gnosis-safe.io/en/articles/3876461-create-a-safe) on gnosis safe web app.
+- Connect wallet.
+- Choose a name.
+- select signers.
+- Define confirmation thresold.
+- Add custom app in App tab on gnosis safe web app.
+- Input url and name
